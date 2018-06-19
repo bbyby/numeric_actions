@@ -11,6 +11,7 @@ class class_Numeric_Actions
 	public  $result;
 
 	/**
+	 * @abstract Метод Проверка входящих параметров
 	 * @param array ...$args
 	 */
 	public function validate( $action = 'add', ...$args ) {
